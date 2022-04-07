@@ -120,5 +120,6 @@ let addToCartClickFunction = (event) => {
 
     let cart1 = document.querySelector(".row2")
     cart1.innerHTML = ""
-    clicks.innerText = 0
+    let clicks1 = document.querySelector(".cart-number")
+    clicks1.innerHTML = 0
    }
