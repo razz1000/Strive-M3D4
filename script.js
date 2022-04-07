@@ -112,3 +112,13 @@ let addToCartClickFunction = (event) => {
             row1.appendChild(col3)
         })
     }
+
+
+    /* EMPTY WHOLE CART FUNCTION */
+   let emptyWholeCartFunction = (event) => {
+    console.log(event.target)
+
+    let cart1 = document.querySelector(".row2")
+    cart1.innerHTML = ""
+    clicks.innerText = 0
+   }
